@@ -2,8 +2,10 @@ apply plugin: 'java'
 
 repositories {
     jcenter()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     compile 'com.google.guava:guava:24.1-jre'
+    compile 'com.github.cs125-illinois:sortlib:0.0.1'
 }
